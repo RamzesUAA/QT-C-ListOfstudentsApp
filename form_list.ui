@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_List</class>
+ <widget class="QWidget" name="Form_List">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="main" stdset="0">
+   <string/>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget
+{
+background: url(C:/Users/Roman/Desktop/imagesForApp/Background.png);
+background-repeat: repeat;
+
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+</string>
+   </property>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>311</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget
+{
+background: url(C:/Users/Roman/Desktop/imagesForApp/logo.png);
+background-repeat: repeat;
+
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Sorting">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>210</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_Sorting {
+
+	background: url(C:/Users/Roman/Desktop/imagesForApp/sorting_btn.png);
+ 	background-repeat: repeat-none;
+	background-position: middle;
+	border-style: outset;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+
+}
+
+QPushButton#pushButton_Sorting:hover {
+    background: url(C:/Users/Roman/Desktop/imagesForApp/sorting_hover_btn.png); 
+	background-repeat: repeat-none;
+    border-style: inset;
+	background-position: middle;
+ }
+
+QPushButton#pushButton_Sorting:pressed {
+
+    background: url(C:/Users/Roman/Desktop/imagesForApp/sorting_pressed_btn.png);
+	background-repeat: repeat-none;
+	background-position: middle;
+
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Adding">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>271</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_Adding {
+
+	background: url(C:/Users/Roman/Desktop/imagesForApp/adding_btn.png);
+ 	background-repeat: repeat-none;
+	background-position: middle;
+	border-style: outset;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+
+}
+
+QPushButton#pushButton_Adding:hover {
+    background: url(C:/Users/Roman/Desktop/imagesForApp/adding_hover_btn.png); 
+	background-repeat: repeat-none;
+    border-style: inset;
+	background-position: middle;
+ }
+
+QPushButton#pushButton_Adding:pressed {
+
+    background: url(C:/Users/Roman/Desktop/imagesForApp/adding_pressed_btn.png);
+	background-repeat: repeat-none;
+	background-position: middle;
+
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Outputting">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>331</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_Outputting {
+
+	background: url(C:/Users/Roman/Desktop/imagesForApp/outputting_btn.png);
+ 	background-repeat: repeat-none;
+	background-position: middle;
+	border-style: outset;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+
+}
+
+QPushButton#pushButton_Outputting:hover {
+    background: url(C:/Users/Roman/Desktop/imagesForApp/outputting_hover_btn.png); 
+	background-repeat: repeat-none;
+    border-style: inset;
+	background-position: middle;
+ }
+
+QPushButton#pushButton_Outputting:pressed {
+
+    background: url(C:/Users/Roman/Desktop/imagesForApp/outputting_pressed_btn.png);
+	background-repeat: repeat-none;
+	background-position: middle;
+
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Removing">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>390</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_Removing {
+
+	background: url(C:/Users/Roman/Desktop/imagesForApp/removing_btn.png);
+ 	background-repeat: repeat-none;
+	background-position: middle;
+	border-style: outset;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+
+}
+
+QPushButton#pushButton_Removing:hover {
+    background: url(C:/Users/Roman/Desktop/imagesForApp/removing_hover_btn.png); 
+	background-repeat: repeat-none;
+    border-style: inset;
+	background-position: middle;
+ }
+
+QPushButton#pushButton_Removing:pressed {
+
+    background: url(C:/Users/Roman/Desktop/imagesForApp/removing_pressed_btn.png);
+	background-repeat: repeat-none;
+	background-position: middle;
+
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>345</x>
+      <y>101</y>
+      <width>941</width>
+      <height>621</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

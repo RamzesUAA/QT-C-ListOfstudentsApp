@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_Second</class>
+ <widget class="QMainWindow" name="MainWindow_Second">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1280</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1280</width>
+      <height>720</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1280</width>
+      <height>720</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget
+{
+background: url(&quot;://rec//img//Background.png&quot;);
+background-repeat: repeat;
+
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+</string>
+    </property>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>311</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget
+{
+background: url(&quot;://rec//img//logo.png&quot;);
+background-repeat: repeat;
+
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Adding">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>291</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_Adding {
+	background: url(&quot;://rec//img//adding_btn.png&quot;);
+ 	background-repeat: repeat-none;
+	background-position: middle;
+	border-style: outset;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+
+}
+
+QPushButton#pushButton_Adding:hover {
+background: url(&quot;://rec//img//adding_hover_btn.png&quot;);
+	background-repeat: repeat-none;
+    border-style: inset;
+	background-position: middle;
+ }
+
+QPushButton#pushButton_Adding:pressed {
+background: url(&quot;://rec//img//adding_pressed_btn.png&quot;);
+	background-repeat: repeat-none;
+	background-position: middle;
+
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Outputting">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>220</y>
+       <width>291</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_Outputting {
+	background: url(&quot;://rec//img//outputting_btn.png&quot;);
+ 	background-repeat: repeat-none;
+	background-position: middle;
+	border-style: outset;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+
+}
+
+QPushButton#pushButton_Outputting:hover {
+
+background: url(&quot;://rec//img//outputting_hover_btn.png&quot;);
+	background-repeat: repeat-none;
+    border-style: inset;
+	background-position: middle;
+ }
+
+QPushButton#pushButton_Outputting:pressed {
+
+	background: url(&quot;://rec//img//outputting_pressed_btn.png&quot;);
+	background-repeat: repeat-none;
+	background-position: middle;
+
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Sorting">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>160</y>
+       <width>291</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_Sorting {
+
+background: url(&quot;://rec//img//sorting_btn.png&quot;);
+ 	background-repeat: repeat-none;
+	background-position: middle;
+	border-style: outset;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+
+}
+
+QPushButton#pushButton_Sorting:hover {
+
+background: url(&quot;://rec//img//sorting_hover_btn.png&quot;);
+	background-repeat: repeat-none;
+    border-style: inset;
+	background-position: middle;
+ }
+
+QPushButton#pushButton_Sorting:pressed {
+
+
+background: url(&quot;://rec//img//sorting_pressed_btn.png&quot;);
+	background-repeat: repeat-none;
+	background-position: middle;
+
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Removing">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>280</y>
+       <width>291</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_Removing {
+
+	background: url(&quot;://rec//img//removing_btn.png&quot;);
+ 	background-repeat: repeat-none;
+	background-position: middle;
+	border-style: outset;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+
+}
+
+QPushButton#pushButton_Removing:hover {
+
+	background: url(&quot;://rec//img//removing_hover_btn.png&quot;);
+	background-repeat: repeat-none;
+    border-style: inset;
+	background-position: middle;
+ }
+
+QPushButton#pushButton_Removing:pressed {
+
+	background: url(&quot;://rec//img//removing_pressed_btn.png&quot;);
+	background-repeat: repeat-none;
+	background-position: middle;
+
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>312</x>
+       <y>11</y>
+       <width>963</width>
+       <height>621</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>963</width>
+       <height>621</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>963</width>
+       <height>621</height>
+      </size>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>621</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: white;</string>
+     </property>
+     <property name="locale">
+      <locale language="English" country="World"/>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="autoScroll">
+      <bool>true</bool>
+     </property>
+     <property name="verticalScrollMode">
+      <enum>QAbstractItemView::ScrollPerPixel</enum>
+     </property>
+     <property name="horizontalScrollMode">
+      <enum>QAbstractItemView::ScrollPerPixel</enum>
+     </property>
+     <property name="gridStyle">
+      <enum>Qt::SolidLine</enum>
+     </property>
+     <property name="rowCount">
+      <number>0</number>
+     </property>
+     <attribute name="verticalHeaderCascadingSectionResizes">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderStretchLastSection">
+      <bool>false</bool>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="widget_3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>340</y>
+       <width>291</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget
+{
+
+background: url(&quot;://rec//img//separating_line.png&quot;);
+background-repeat: repeat;
+
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_ReadFromFile">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>360</y>
+       <width>291</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_ReadFromFile {
+
+background: url(&quot;://rec//img//file_reading_btn.png&quot;);
+ 	background-repeat: repeat-none;
+	background-position: middle;
+	border-style: outset;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+
+}
+
+QPushButton#pushButton_ReadFromFile:hover {
+
+background: url(&quot;://rec//img//file_reading_hover_btn.png&quot;);
+	background-repeat: repeat-none;
+    border-style: inset;
+	background-position: middle;
+ }
+
+QPushButton#pushButton_ReadFromFile:pressed {
+
+background: url(&quot;://rec//img//file_reading_pressed_btn.png&quot;);
+	background-repeat: repeat-none;
+	background-position: middle;
+
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_ClearingList">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>420</y>
+       <width>291</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_ClearingList {
+
+background: url(&quot;://rec//img//clearing_btn.png&quot;);
+ 	background-repeat: repeat-none;
+	background-position: middle;
+	border-style: outset;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+
+}
+
+QPushButton#pushButton_ClearingList:hover {
+
+background: url(&quot;://rec//img//clearing_hover_btn.png&quot;);
+	background-repeat: repeat-none;
+    border-style: inset;
+	background-position: middle;
+ }
+
+QPushButton#pushButton_ClearingList:pressed {
+
+background: url(&quot;://rec//img//clearing_pressed_btn.png&quot;);
+	background-repeat: repeat-none;
+	background-position: middle;
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Support">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>500</y>
+       <width>291</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_Support {
+
+background: url(&quot;://rec//img//support_btn.png&quot;);
+ 	background-repeat: repeat-none;
+	background-position: middle;
+	border-style: outset;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+
+}
+
+QPushButton#pushButton_Support:hover {
+
+background: url(&quot;://rec//img//support_hover_btn.png&quot;);
+	background-repeat: repeat-none;
+    border-style: inset;
+	background-position: middle;
+ }
+
+QPushButton#pushButton_Support:pressed {
+
+background: url(&quot;://rec//img//support_pressed_btn.png&quot;);
+	background-repeat: repeat-none;
+	background-position: middle;
+
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Exit">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>560</y>
+       <width>291</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_Exit {
+
+background: url(&quot;://rec//img//exit_btn.png&quot;);
+ 	background-repeat: repeat-none;
+	background-position: middle;
+	border-style: outset;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+
+}
+
+QPushButton#pushButton_Exit:hover {
+
+background: url(&quot;://rec//img//exit_hover_btn.png&quot;);
+	background-repeat: repeat-none;
+    border-style: inset;
+	background-position: middle;
+ }
+
+QPushButton#pushButton_Exit:pressed {
+background: url(&quot;://rec//img//exit_pressed_btn.png&quot;);
+	background-repeat: repeat-none;
+	background-position: middle;
+
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>480</y>
+       <width>291</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget
+{
+
+background: url(&quot;://rec//img//separating_line.png&quot;);
+background-repeat: repeat;
+
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave_2"/>
+    <addaction name="actionSave_as_2"/>
+   </widget>
+   <widget class="QMenu" name="menuList_Of_Students">
+    <property name="title">
+     <string>StudentsList</string>
+    </property>
+    <widget class="QMenu" name="menuSorting">
+     <property name="title">
+      <string>Sorting</string>
+     </property>
+     <addaction name="actionBy_the_surname_in_decrease_order"/>
+    </widget>
+    <widget class="QMenu" name="menuOutputting">
+     <property name="title">
+      <string>Outputting</string>
+     </property>
+     <addaction name="action5_students_with_the_highest_average_marks"/>
+    </widget>
+    <widget class="QMenu" name="menuRemoving">
+     <property name="title">
+      <string>Removing</string>
+     </property>
+     <addaction name="actionStudent_with_mark_s_two"/>
+    </widget>
+    <addaction name="actionAdd_new_student"/>
+    <addaction name="menuSorting"/>
+    <addaction name="menuOutputting"/>
+    <addaction name="menuRemoving"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionOur_contacts"/>
+    <addaction name="actionInformation"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuList_Of_Students"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionOpen_2"/>
+   <addaction name="separator"/>
+   <addaction name="actionSave_2"/>
+   <addaction name="actionSave_as_2"/>
+   <addaction name="separator"/>
+   <addaction name="action5_students_with_the_highest_average_marks"/>
+   <addaction name="actionBy_the_surname_in_decrease_order"/>
+   <addaction name="actionAdd_new_student"/>
+   <addaction name="actionStudent_with_mark_s_two"/>
+   <addaction name="separator"/>
+   <addaction name="actionInformation"/>
+   <addaction name="actionOur_contacts"/>
+  </widget>
+  <action name="actionAdd_new_student">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/rec/img/icons8_add_32.png</normaloff>:/rec/img/icons8_add_32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add new student</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionBy_the_surname_in_decrease_order">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/rec/img/icons8_sorting_32.png</normaloff>:/rec/img/icons8_sorting_32.png</iconset>
+   </property>
+   <property name="text">
+    <string>By the surname in decrease order</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="action5_students_with_the_highest_average_marks">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/rec/img/icons8_bulleted_list_32.png</normaloff>:/rec/img/icons8_bulleted_list_32.png</iconset>
+   </property>
+   <property name="text">
+    <string>5 students with the worst average marks</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+  </action>
+  <action name="actionStudent_with_mark_s_two">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/rec/img/icons8_delete_document_32.png</normaloff>:/rec/img/icons8_delete_document_32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Student with mark(s) two</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionOpen_2">
+   <property name="icon">
+    <iconset theme="OpenFile" resource="resource.qrc">
+     <normaloff>:/rec/img/icons8_view_32.png</normaloff>:/rec/img/icons8_view_32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+   <property name="toolTip">
+    <string>Open file</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionSave_2">
+   <property name="icon">
+    <iconset theme="SaveFile" resource="resource.qrc">
+     <normaloff>:/rec/img/icons8_save_32.png</normaloff>:/rec/img/icons8_save_32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="toolTip">
+    <string>Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_as_2">
+   <property name="icon">
+    <iconset theme="SaveAsFile" resource="resource.qrc">
+     <normaloff>:/rec/img/icons8_save_all_32.png</normaloff>:/rec/img/icons8_save_all_32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save as</string>
+   </property>
+   <property name="toolTip">
+    <string>Save as</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionInformation">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/rec/img/icons8_info_32.png</normaloff>:/rec/img/icons8_info_32.png</iconset>
+   </property>
+   <property name="text">
+    <string>About the program</string>
+   </property>
+   <property name="toolTip">
+    <string>About the program</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+I</string>
+   </property>
+  </action>
+  <action name="actionOur_contacts">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/rec/img/icons8_contacts_32.png</normaloff>:/rec/img/icons8_contacts_32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Our contacts</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

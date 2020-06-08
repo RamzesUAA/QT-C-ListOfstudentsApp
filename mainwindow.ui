@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>15555</width>
+    <height>51155</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow
+{
+background: url(C:/Users/Roman/Desktop/imagesForApp/Background_Key_File_Reading.png);
+background-repeat: repeat;
+
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>325</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget
+{
+background: url(&quot;://rec//img//logo.png&quot;);
+background-repeat: repeat;
+
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1280</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget
+{
+background: url(&quot;://rec//img//Background.png&quot;);
+background-repeat: repeat;
+
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+</string>
+    </property>
+    <widget class="QWidget" name="widget_3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>200</y>
+       <width>710</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>1280</width>
+       <height>720</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget
+{
+background: url(&quot;://rec//img//ListOfStudents_Keyboard_File_Reading.png&quot;);
+background-repeat: repeat;
+
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>350</y>
+       <width>582</width>
+       <height>37</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget
+{
+background: url(&quot;://rec//img//label_Key_File_Reading.png&quot;);
+background-repeat: repeat;
+
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_File_Reading">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>480</y>
+       <width>211</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::ClickFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_File_Reading {
+
+background: url(&quot;://rec//img//File_btn.png&quot;);
+ 	background-repeat: repeat-none;
+	background-position: middle;
+	border-style: outset;
+    border-radius: 10px;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+
+}
+
+QPushButton#pushButton_File_Reading:hover {
+background: url(&quot;://rec//img//File_hover_btn.png&quot;);
+	background-repeat: repeat-none;
+    border-style: inset;
+	background-position: middle;
+ }
+
+QPushButton#pushButton_File_Reading:pressed {
+background: url(&quot;://rec//img//File_pressed_btn.png&quot;);
+	background-repeat: repeat-none;
+	background-position: bottom;
+
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Keyboard_Reading">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>480</y>
+       <width>211</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_Keyboard_Reading {
+
+background: url(&quot;://rec//img//Keyboard_btn.png&quot;);
+ 	background-repeat: repeat-none;
+	background-position: middle;
+	border-style: outset;
+    border-radius: 10px;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+
+}
+
+QPushButton#pushButton_Keyboard_Reading:hover {
+
+background: url(&quot;://rec//img//Keyboard_hover_btn.png&quot;);
+	background-repeat: repeat-none;
+    border-style: inset;
+	background-position: middle;
+ }
+
+QPushButton#pushButton_Keyboard_Reading:pressed {
+
+	background: url(&quot;://rec//img//Keyboard_pressed_btn.png&quot;);
+	background-repeat: repeat-none;
+	background-position: bottom;
+
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <zorder>widget_2</zorder>
+   <zorder>widget</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
